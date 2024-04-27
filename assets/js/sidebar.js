@@ -83,7 +83,7 @@ const genre_list=[
      
       genre_list.forEach(evt=>{
   const genre_text =document.createElement('a')
-  genre_text.href='/movie-list.html'
+  genre_text.href='.../movie-list.html'
   genre_text.classList.add('sidebar_links')
   genre_text.id=evt.id
   genre_text.innerText=evt.name;
